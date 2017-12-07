@@ -108,18 +108,4 @@ hold off;
 
 legend('show','Location','northwest')%,'Orientation','horizontal')
 
-% 
-% hold on;
-% plot(variance_vec,time_ta,'Color',[0 0 1],'DisplayName','Triangle Algorithm');
-% plot(variance_vec,time_aa,'--','Color',[1 0 1],'DisplayName','FastAnchorWord');
-% title('perturbation variance vs running time')
-% 
-% hold off;
-% 
-% legend('show','Location','west')%,'Orientation','horizontal')
-% 
-% savefile = ['perturbation_tests'  datestr(now,30) '.mat']
-% save(savefile, 'mean_err_fast', 'mean_err_ta','time_ta','time_aa');
-% 
-% 
-% 
+%
