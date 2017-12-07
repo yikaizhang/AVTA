@@ -1,7 +1,11 @@
 %%*********************
-%This program runs the nips dataset experiment.
-%'nips_data.mat' is the word- doc occurance matrix with pruned vocalb
+%This program runs the nips dataset experiment. Coherence is performance
+%measure.
+%'nips_data.mat' is the word- doc occurance matrix with pruned vocabulary.
 %'nips_data.mat' should be included in current path.
+%Experiment setting:
+%   training set size:1000.
+%   testing set size: 497.
 %%*********************
 
 %% Load dataset

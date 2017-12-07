@@ -51,8 +51,12 @@ mat_a=mat_A(:,index);
 for iter=1:length(NUM_query)
     
     %% Generate feasible query points 
-    X=rand(N_var,1)*5;
-    b=mat_A*X;
+    if iter>=length(NUM_query)*0.5
+        X=rand(N_var,1)*5;
+        b=mat_A*X;
+    else
+        b=rand(Dim,1);
+    end
     
     %% Simplex method
     [n_1,n_2]=size(mat_A);

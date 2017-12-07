@@ -1,8 +1,10 @@
 %********This program runs the swimmer image NMF experiment*********
 %Y.mat is the original data set which should be included in current path.
-% 
-%
-% 
+% Compare AVTA and Fast anchor word on NMF problem. The goal is to recover
+% under lying poses of different limbs. Data are corrupted by spurious
+% action.
+%*******************************************************************
+
 
 %% load data
 swimraw=load('Y.mat');
