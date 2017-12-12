@@ -25,6 +25,6 @@ Topic modeling: '\topic modeling'
 '\nips\real data\nips_coherence.m': Compute coherence of topics learned by algorithms in 'NIPS' dataset.
 '\nips\semi_syhtetic\diff_documents.m': Compute l1 reconstruct error of topics learned by algorithms on NIPS.
 '\nips\semi_syhtetic\scaleofnoise.m': Compute the range of l1-error of topics learned by algorithms on NIPS when data has uniform iid noise.
-'\nytime\' : Compute coherence of topics learned by algorithms in 'NYtime' dataset.
+'\nytime\nytime_coherence.m' : Compute coherence of topics learned by algorithms in 'NYtime' dataset.
 
 For bugs and questions please email: yz422@cs.rutgers.edu. Thank you!
